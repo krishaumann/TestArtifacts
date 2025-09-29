@@ -1,0 +1,8 @@
+pandas
+numpy
+networkx
+sentence-transformers
+scikit-learn
+hdbscan
+joblib
+matplotlib
