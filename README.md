@@ -19,3 +19,8 @@ builds representative path models, and exports enriched data.
 TestAmbiquityDetector
 - This script loads CSV files containing test cases, validates their structure,
 and analyzes them for ambiguity using NLP and clustering techniques.
+
+Pre-requisites
+- CSV folder created with a list of test cases to be used.  See Sample
+- Features folder created with a list of test cases to be used.  See Sample
+
