@@ -1,0 +1,49 @@
+test_case_id,step_no,test_step,expected_result
+CRM0001,1,Login as sales user,Dashboard is displayed
+CRM0001,2,Create new contact,Contact is added successfully
+CRM0001,3,Edit contact details,Contact details are updated
+CRM0001,4,Delete contact,Contact is removed from system
+CRM0002,1,Login as admin,Admin dashboard is displayed
+CRM0002,2,Create new account,Account is created
+CRM0002,3,Assign account owner,Owner is assigned to account
+CRM0003,1,Login as sales user,Dashboard is displayed
+CRM0003,2,Create new lead,Lead is added successfully
+CRM0003,3,Convert lead to opportunity,Opportunity is created from lead
+CRM0004,1,Search for contact by name,Contact is found
+CRM0004,2,View contact details,Contact details are displayed
+CRM0005,1,Create new opportunity,Opportunity is created
+CRM0005,2,Update opportunity stage,Stage is updated
+CRM0005,3,Close opportunity as won,Opportunity status is 'Won'
+CRM0006,1,Create new task for contact,Task is created and linked to contact
+CRM0006,2,Mark task as completed,Task status is 'Completed'
+CRM0007,1,Generate sales report,Report is generated and displayed
+CRM0007,2,Export report to CSV,CSV file is downloaded
+CRM0008,1,Add note to account,Note is saved and visible under account
+CRM0008,2,Delete note from account,Note is removed
+CRM0009,1,Login as support user,Support dashboard is displayed
+CRM0009,2,Create support case,Case is created and assigned
+CRM0009,3,Update case status,Case status is updated
+CRM0010,1,Merge duplicate contacts,Contacts are merged into one record
+CRM0010,2,Verify merged contact details,Details are correct and duplicates removed
+CRM0011,1,Assign lead to user,Lead is assigned
+CRM0011,2,Change lead status,Lead status is updated
+CRM0012,1,Schedule meeting for account,Meeting is scheduled and visible in calendar
+CRM0012,2,Send meeting invite,Invite is sent to participants
+CRM0013,1,Add contact to account,Contact is linked to account
+CRM0013,2,Remove contact from account,Contact is unlinked from account
+CRM0014,1,View opportunity pipeline,Pipeline is displayed with all opportunities
+CRM0014,2,Filter pipeline by stage,Only selected stage opportunities are shown
+CRM0015,1,Login as manager,Manager dashboard is displayed
+CRM0015,2,View team performance report,Report is displayed
+CRM0015,3,Export team report,Report is exported as CSV
+CRM0016,1,Create new campaign,Campaign is created
+CRM0016,2,Add contacts to campaign,Contacts are added to campaign
+CRM0016,3,Send campaign email,Emails are sent to contacts
+CRM0017,1,Import contacts from CSV,Contacts are imported successfully
+CRM0017,2,Verify imported contacts,Contacts are visible in contact list
+CRM0018,1,Deactivate account,Account status is set to inactive
+CRM0018,2,Reactivate account,Account status is set to active
+CRM0019,1,Set account priority,Priority is updated
+CRM0019,2,View high priority accounts,Only high priority accounts are listed
+CRM0020,1,Login as admin,Admin dashboard is displayed
+CRM0020,2,Delete account,Account is removed from system
